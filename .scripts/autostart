@@ -18,3 +18,5 @@ xbacklight -set 90 &
 setxkbmap -option grp:switch,grp:shifts_toggle,grp_led:scroll,compose:ralt gb,dvorak
 
 [ -f ~/Pictures/background ] && feh --bg-max ~/Pictures/background
+
+xrandr --output HDMI1 --auto --left-of VGA1

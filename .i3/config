@@ -174,3 +174,6 @@ bindsym XF86AudioLowerVolume exec $HOME/.scripts/sound down
 bindsym XF86AudioMute exec exec $HOME/.scripts/sound mute
 
 exec ~/.scripts/autostart
+
+workspace 1 output HDMI1
+workspace 2 output VGA1
